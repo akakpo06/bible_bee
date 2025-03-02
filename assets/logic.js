@@ -32,12 +32,12 @@
         });
 
         // Trier les catégories par ordre d'apparition
-        const categoryKeys = Object.keys(categories);
+        // const categoryKeys = Object.keys(categories);
 
         // Préparer l'affichage catégorie par catégorie
-        categoryQuestions = categoryKeys.flatMap(category => categories[category].slice(0, 15));
-categoryQuestions = categories
-        console.log(categoryQuestions)
+        // categoryQuestions = categoryKeys.flatMap(category => categories[category].slice(0, 15));
+        categoryQuestions = categories
+        // console.log(categoryQuestions)
     }
 
     // Afficher la prochaine question
@@ -45,7 +45,7 @@ categoryQuestions = categories
         if (timerInterval) clearInterval(timerInterval); // Arrêter le minuteur précédent
 
         if (currentIndex >= categoryQuestions.length) {
-            alert("🏆 Vous avez terminé toutes les catégories !");
+            alert("Fin du jeu");
             currentIndex = 0; // Réinitialiser si nécessaire
             return;
         }

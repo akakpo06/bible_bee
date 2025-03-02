@@ -1,0 +1,40 @@
+[
+    {
+        "category": "eclairs",
+        "questions": [
+            {
+                "en": "🇬🇧 Who was the first king of Israel?",
+                "fr": "🇫🇷 Qui était le premier roi d'Israël?"
+            },
+            {
+                "en": "🇬🇧 Who killed goliath",
+                "fr": "🇫🇷 Qui a tué Goliath"
+            },
+            {
+                "en": "🇬🇧 Who was the first to walk on water?",
+                "fr": "🇫🇷 Qui était le premier à marcher sur l'eau?"
+            }
+            
+        ],
+        "time": 15
+    },
+    {
+        "category": "complete",
+        "questions": [
+            {
+                "en": "John 3:16 For God so loveth the world ....",
+                "fr": "Jean 3:16 car Dieu a tant aimé le monde ...."
+            },
+            {
+                "en": "Gen 1:1 In the beginning ....",
+                "fr": "Gen 1:1 Au commencement ....."
+            },
+            {
+                "en": "John 1:12 To all that receiveth and to all that believeth",
+                "fr": "Jean 1:12 A tous ceux qui lont cru et à tous ceux qui l'ont reçu"
+            }
+            
+        ],
+        "time": 15
+    }
+]
