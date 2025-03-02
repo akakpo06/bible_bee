@@ -1,0 +1,61 @@
+        /* 🎨 Palette de couleurs */
+        body {
+            font-family: 'Comic Sans MS', sans-serif;
+            text-align: center;
+            background: #F9F5FF; /* Fond principal */
+            margin-top: 50px;
+            color: #2C2C54; /* Texte principal */
+            transition: 0.5s ease in out;
+        }
+
+        h1 {
+            color: #7E57C2; /* Titre principal */
+            font-size: 4rem;
+            animation: fadeIn 1.5s ease;
+        }
+
+        .question-container {
+            font-size: 1.8rem;
+            background: #FFFFFF;
+            border: 5px solid #7E57C2;
+            border-radius: 20px;
+            padding: 30px;
+            display: inline-block;
+            max-width: 700px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            transform: scale(1);
+            transition: transform 0.3s ease;
+        }
+
+        .question-container:hover {
+            transform: scale(1.05);
+        }
+
+        #timer {
+            font-size: 32px;
+            color: #FF4D4F; /* Timer en rouge vif */
+            margin-top: 20px;
+        }
+
+        button {
+            padding: 15px 30px;
+            margin-top: 30px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            background: linear-gradient(145deg, #FFD700, #FFC107);
+            border: none;
+            border-radius: 30px;
+            color: #2C2C54;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            transition: transform 0.2s ease;
+        }
+
+        button:hover {
+            transform: translateY(-5px);
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
